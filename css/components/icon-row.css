@@ -13,3 +13,11 @@
 .icon-row__icon span{
     margin-top: 15px;
 }
+
+.icon-second-row{
+    justify-content: flex-start;
+}
+
+.icon-second-row>div:last-child{
+    margin-left:65px;
+}

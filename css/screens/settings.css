@@ -19,3 +19,35 @@
 .settings__setting-columns :last-child{
     opacity: 0.5;
 }
+
+@keyframes listFadeInUp {
+    from{
+        transform: translatey(30px);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes listFadeInDown {
+    from{
+        transform: translatey(-30px);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+
+.settings-list:first-child{
+    animation: listFadeInDown 1s linear forwards;
+}
+
+.settings-list:last-child{
+    animation: listFadeInUp 1s linear forwards;
+}
+
+

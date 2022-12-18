@@ -22,7 +22,6 @@
     z-index: 1;
 }
 
-/* To Do : fadeIn message left and right*/
 @keyframes fadeIn {
     from{
         transform: translateY(30px);
@@ -33,7 +32,6 @@
         opacity: 1;
     }
 }
-
 
 .main-chat{
     margin-top: 180px;

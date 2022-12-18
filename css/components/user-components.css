@@ -52,3 +52,20 @@
     display: block;
     margin-bottom: 10px;
 }
+
+.user-component__subtitle-container
+{
+    display: flex;
+    align-items: center;
+}
+.user-component__Exclamation{
+    margin-top: 8px;
+    margin-left: 2px;
+    border: 2px solid tomato;
+    border-radius: 50%;
+    color:tomato;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    font-weight: 600;
+}

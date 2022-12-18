@@ -10,9 +10,31 @@
     font-size: 32px;
     font-weight: 600;
 }
+.screen-header__icons {
+    display: flex;
+}
+
 
 .screen-header__icons span{
     margin-left: 25px;
+}
+
+.screen-header__icons-cog{
+    display: flex;
+    position: relative;
+}
+
+.cog_red_dot{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 42px;
+    bottom: 17px;
 }
 
 @keyframes rotateCog{

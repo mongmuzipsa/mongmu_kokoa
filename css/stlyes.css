@@ -12,7 +12,7 @@
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
 @import "components/no-mobile.css";
-@import "components/no-landscape.css"
+@import "components/no-landscape.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -26,8 +26,17 @@
 body{
     font-family: "Open Sans", sans-serif;
     color:#2e363e;
+    height: 200vh;
 }
 
 .main-screen{
     padding:0px var(--horizontal-space)
+}
+
+.status-bar{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
 }
